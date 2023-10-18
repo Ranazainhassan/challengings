@@ -1,0 +1,535 @@
+
+*{
+
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+   
+}
+ img{
+
+    display: block;
+    width:100%;
+    height:auto;
+ }
+
+
+
+
+/*------------------------------------
+start header styling
+----------------------------------*/
+.start-header{
+
+    background-color:black;
+    width:100%;
+    height:400px;
+    
+}
+.header-content{
+
+    text-align: center;
+   
+  
+   
+ 
+    
+}
+.header-heading{
+    font-size: 3em;
+    
+    Color:white;
+    font-weight: bold;
+    padding-top: 2em ;
+    text-transform: uppercase;
+  
+ 
+  
+    
+
+
+
+}
+.header-content p{
+    color: yellow;
+    
+    
+}
+.bottom-header{
+        margin-top: 12.90em;
+        height:2.80em;
+        background-color: yellow;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+
+    
+}
+
+.bottom-header a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    color:black;
+    font-size: 1.25em;
+    
+    width:50em;
+    height:2.25em;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s ease;
+}
+.bottom-header a:hover{
+    color:yellow;
+    background-color: black;
+  
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:600px){
+    
+    .start-header{
+        width:100%;
+        height:300px;
+
+    }
+    .header-content{
+        padding-top: 6.80em;
+
+        
+    }
+    .header-heading{
+        font-size: 1em;
+        width:100%;
+       
+        
+    }
+    
+    
+    
+    .bottom-header{
+        margin-top: 7em;
+        height:28px;
+        width:100%;
+     
+
+    }
+    .bottom-header a{
+        font-size: 1em;
+        width:100%;
+
+    }
+
+}
+/*----------------------------------------
+Header end
+-------------------------------------*/
+
+
+.post-cards{
+
+
+padding:3em;
+
+ 
+  
+}
+
+.post-cards-first-row{
+        
+       background-color:whitesmoke;
+       margin-bottom: 1em;
+       
+      
+}
+
+.post-cards-second-row{
+        
+    background-color:whitesmoke;
+    margin-bottom: 1em;
+   
+}
+
+.post-cards-third-row{
+        
+    background-color:whitesmoke;
+    margin-bottom: 1em;
+   
+}
+
+.post-cards-full-row{
+        
+    background-color:whitesmoke;
+    margin-bottom: 1em;
+   
+}
+.post-cards-content{
+                 
+
+    padding:0px 20px 30px;
+  
+      
+}
+.post-cards-content h2{
+                 
+    text-align: center;
+    padding:20px;
+    background-color: yellow;
+    margin:0px -20px 30px ;
+    transition: 1s ease;
+}
+.post-cards-content h2:hover{
+                 color:yellow;
+                 background-color: black;
+    
+}
+ a{
+        
+    text-decoration: none;
+    color:black
+}
+
+
+
+
+    @media  screen and (min-width:810px)  {
+              
+              .post-cards{
+                display:flex;
+                flex-wrap: wrap;
+               justify-content: space-around;
+             
+
+              }
+            .post-cards-first-row{
+
+               flex-basis: 48%;
+               
+            }
+            .post-cards-second-row{
+
+                flex-basis: 32%;
+            }
+    
+    }
+
+    @media  screen and (min-width:1120px) {
+     
+        .cover-all{
+
+            display: flex;
+        }
+       
+
+        
+    }
+
+
+
+
+ 
+
+
+
+/*--------------------------------------------
+------------------------------------
+section tag 
+-------------------------------------*/
+
+
+
+
+ 
+ .sidebar-right{
+    
+   padding:3em;
+   color:black;
+   
+    
+
+
+
+
+
+ }
+ .widget{
+    background-color: white;
+    margin-bottom: 2em;
+   
+   
+    
+ 
+
+   
+ } 
+ .sidebar-menu{
+   
+  width:200px;
+    
+  
+ }
+ .widget-content{
+
+    padding:.5em 2em;
+   
+   
+
+ }
+ .sidebar-right ul{
+list-style-type: none;
+padding-left: 2em;
+ }
+ .sidebar-right ul a{
+   
+    display:block;
+   padding-top:20px;
+    padding-bottom :.4em;
+    color:black;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+
+ @media  screen and  (max-width:1120px) {
+
+    
+  
+    .sidebar-right{
+
+    display:flex;
+    flex-wrap: wrap;
+  justify-content: space-between;  
+  margin-top: 1em;
+
+
+   }
+   .widget{
+    flex-basis: 48.8%;
+  
+   }
+
+
+
+
+}
+
+
+
+
+
+/*--------------------------------
+----------------------------
+right-side bar css 
+----------------*/
+
+
+
+
+/*----------------------------------------------
+----- 
+section 2 css
+------------------------*/
+
+
+.section-header{
+
+   text-align: center;
+   font-size: 3em;
+   color:black;
+   
+
+
+}
+
+.watch-card{
+
+    margin: 2em 2em 1em 2em ;
+  
+    
+
+}
+
+.watch-content{
+
+    background-color: black;
+    color:white;
+    padding:3em;
+
+}
+
+.watch-content h2{
+    font-size:2em;
+    font-weight:300;
+    margin:0;
+    text-transform: capitalize;
+}
+.movie-info{
+
+    font-weight: bold;
+}
+.movie-info span{
+     
+    padding-right: 1.5em;
+
+
+}
+.movie-story{
+    margin:1em 0;
+}
+.watch-content a{
+
+Color:white;
+font-weight: bold;
+
+}
+
+
+
+@media screen and (min-width:810px){
+
+    .watch-card {
+
+        display: flex;
+    }
+    .watch-content{
+
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+     .watch-img-right{
+
+
+     order: 2;
+     }
+}
+
+/*---------------------
+section 2
+----------*/
+
+/*-----------
+section3-------
+*/
+
+.download-header{
+     
+    text-align: center;
+   font-size: 3em;
+   color:black;
+   
+}
+.download-card{
+    
+ 
+ margin: 2em 2em 1em 2em;
+
+}
+.download-content{
+
+    background-color: white;
+}
+.download-content a{
+
+     background-color: black;
+     color:white;
+     padding:1em 2em;
+     text-decoration: none;
+     text-transform: capitalize;
+
+}
+.download-info{
+      
+    padding:1em 2em;
+
+
+}
+.download-info h4{
+      
+   
+  margin:0;
+}
+.download-info p{
+      
+    margin:0;
+    font-size: .9em;
+
+
+
+
+}
+.download-genre, .download-cast{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.download-content{
+
+    display: flex;
+    flex-flow: column;
+   
+}
+.download-content, a, .download-rating{
+    display: flex;
+    flex-flow:column ;
+    justify-content: center;
+    text-align: center;
+}
+.download-cast img{
+
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.download-rating{
+
+
+    background-color: yellow;
+    font-size: .9em;
+    color:black;
+    padding:1em 2em;
+   
+}
+.download-rating .rate{
+font-size: 2.5em;
+font-weight:  bold;
+margin-bottom: -.25em;
+
+}
+
+.download-info h4 {
+    flex-basis: 20%;
+}
+.download-genre {
+
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:810px) {
+
+    .download-content{
+        display: flex;
+        flex-flow: row;
+    }
+    .download-content a, .download-rating{
+        flex-grow: 1;
+    }
+    .download-info{
+
+        flex-grow: 2;
+    }
+}
+
+/*-----------
+section3 end-
+-------------
+*/
+
+
